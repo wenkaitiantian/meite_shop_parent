@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>meite_shop_service_api</artifactId>
+        <groupId>com.mayikt</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>meite_shop_service_api_member</artifactId>
+    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+            <artifactId>meite_shop_api_weixin_entity</artifactId>
+            <groupId>com.mayikt</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- swagger-spring-boot -->
+        <dependency>
+            <groupId>com.spring4all</groupId>
+            <artifactId>swagger-spring-boot-starter</artifactId>
+            <version>1.7.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <artifactId>meite_shop_api_member_entity</artifactId>
+            <groupId>com.mayikt</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mayikt</groupId>
+            <artifactId>meite_shop_service_api_weixin</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mayikt</groupId>
+            <artifactId>meite_shop_api_member_dto</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

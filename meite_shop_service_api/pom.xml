@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>meite_shop_parent</artifactId>
+        <groupId>com.mayikt</groupId>
+        <!--<version>1.0-SNAPSHOT</version>-->
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>meite_shop_service_api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>meite_shop_service_api_member</module>
+        <module>meite_shop_service_api_weixin</module>
+    </modules>
+
+    <!--注意限定版本一定为RELEASE,因为上传的对应仓库的存储类型为RELEASE -->
+    <!--指定仓库地址 -->
+    <distributionManagement>
+        <repository>
+            <!--此名称要和.m2/settings.xml中设置的ID一致 -->
+            <id>mayikt</id>
+            <url>http://47.244.142.125:9901/repository/mayikt-release/</url>
+        </repository>
+    </distributionManagement>
+
+    <build>
+        <plugins>
+            <!--发布代码Jar插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.7</version>
+            </plugin>
+            <!--发布源码插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

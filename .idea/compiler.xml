@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="meite_shop_api_member_dto" />
+        <module name="meite_shop_api_member_entity" />
+        <module name="meite_shop_api_weixin_dto" />
+        <module name="meite_shop_api_weixin_entity" />
+        <module name="meite_shop_basics_springcloud_eureka" />
+        <module name="meite_shop_basics_springcloud_zuul" />
+        <module name="meite_shop_common_core" />
+        <module name="meite_shop_porta" />
+        <module name="meite_shop_service_api_member" />
+        <module name="meite_shop_service_api_weixin" />
+        <module name="meite_shop_service_member" />
+        <module name="meite_shop_service_weixin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="meite_shop_api_dto" target="1.8" />
+      <module name="meite_shop_api_entity" target="1.8" />
+      <module name="meite_shop_api_member_dto" target="1.8" />
+      <module name="meite_shop_api_member_entity" target="1.8" />
+      <module name="meite_shop_api_weixin_dto" target="1.8" />
+      <module name="meite_shop_api_weixin_entity" target="1.8" />
+      <module name="meite_shop_basics" target="1.8" />
+      <module name="meite_shop_basics_springcloud_eureka" target="1.8" />
+      <module name="meite_shop_basics_springcloud_zuul" target="1.8" />
+      <module name="meite_shop_common" target="1.8" />
+      <module name="meite_shop_common_core" target="1.8" />
+      <module name="meite_shop_parent" target="1.8" />
+      <module name="meite_shop_porta" target="1.8" />
+      <module name="meite_shop_service_api" target="1.8" />
+      <module name="meite_shop_service_api_member" target="1.8" />
+      <module name="meite_shop_service_api_weixin" target="1.8" />
+      <module name="meite_shop_service_impl" target="1.8" />
+      <module name="meite_shop_service_member" target="1.8" />
+      <module name="meite_shop_service_weixin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

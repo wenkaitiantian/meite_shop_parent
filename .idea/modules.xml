@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_api_dto/meite_shop_api_dto.iml" filepath="$PROJECT_DIR$/meite_shop_api_dto/meite_shop_api_dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_api_dto/meite_shop_api_member_dto/meite_shop_api_member_dto.iml" filepath="$PROJECT_DIR$/meite_shop_api_dto/meite_shop_api_member_dto/meite_shop_api_member_dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_api_entity/meite_shop_api_member_entity/meite_shop_api_member_entity.iml" filepath="$PROJECT_DIR$/meite_shop_api_entity/meite_shop_api_member_entity/meite_shop_api_member_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_api_dto/meite_shop_api_weixin_dto/meite_shop_api_weixin_dto.iml" filepath="$PROJECT_DIR$/meite_shop_api_dto/meite_shop_api_weixin_dto/meite_shop_api_weixin_dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_api_entity/meite_shop_api_weixin_entity/meite_shop_api_weixin_entity.iml" filepath="$PROJECT_DIR$/meite_shop_api_entity/meite_shop_api_weixin_entity/meite_shop_api_weixin_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_basics/meite_shop_basics.iml" filepath="$PROJECT_DIR$/meite_shop_basics/meite_shop_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_basics/meite_shop_basics_springcloud_eureka/meite_shop_basics_springcloud_eureka.iml" filepath="$PROJECT_DIR$/meite_shop_basics/meite_shop_basics_springcloud_eureka/meite_shop_basics_springcloud_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_basics/meite_shop_basics_springcloud_zuul/meite_shop_basics_springcloud_zuul.iml" filepath="$PROJECT_DIR$/meite_shop_basics/meite_shop_basics_springcloud_zuul/meite_shop_basics_springcloud_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_common/meite_shop_common.iml" filepath="$PROJECT_DIR$/meite_shop_common/meite_shop_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_common/meite_shop_common_core/meite_shop_common_core.iml" filepath="$PROJECT_DIR$/meite_shop_common/meite_shop_common_core/meite_shop_common_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_parent.iml" filepath="$PROJECT_DIR$/meite_shop_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_porta/meite_shop_porta.iml" filepath="$PROJECT_DIR$/meite_shop_porta/meite_shop_porta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api.iml" filepath="$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_member/meite_shop_service_api_member.iml" filepath="$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_member/meite_shop_service_api_member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_weixin/meite_shop_service_api_weixin.iml" filepath="$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_weixin/meite_shop_service_api_weixin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_service_impl/meite_shop_service_impl.iml" filepath="$PROJECT_DIR$/meite_shop_service_impl/meite_shop_service_impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_service_impl/meite_shop_service_member/meite_shop_service_member.iml" filepath="$PROJECT_DIR$/meite_shop_service_impl/meite_shop_service_member/meite_shop_service_member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_service_impl/meite_shop_service_weixin/meite_shop_service_weixin.iml" filepath="$PROJECT_DIR$/meite_shop_service_impl/meite_shop_service_weixin/meite_shop_service_weixin.iml" />
+    </modules>
+  </component>
+</project>
