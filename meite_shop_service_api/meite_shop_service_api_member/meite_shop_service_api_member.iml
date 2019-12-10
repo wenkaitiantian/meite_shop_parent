@@ -16,7 +16,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.mayikt:meite_shop_api_weixin_entity:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.spring4all:swagger-spring-boot-starter:1.7.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-ui:2.8.0" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-spring-web:2.8.0" level="project" />
@@ -36,7 +35,6 @@
     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.2.0.Final" level="project" />
     <orderEntry type="library" name="Maven: io.springfox:springfox-bean-validators:2.8.0" level="project" />
-    <orderEntry type="library" name="Maven: com.mayikt:meite_shop_api_member_entity:1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="meite_shop_service_api_weixin" />
     <orderEntry type="module" module-name="meite_shop_common_core" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.0.1.RELEASE" level="project" />

@@ -135,8 +135,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.23.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.23.Final" level="project" />
     <orderEntry type="module" module-name="meite_shop_service_api_member" />
-    <orderEntry type="library" name="Maven: com.mayikt:meite_shop_api_weixin_entity:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.mayikt:meite_shop_api_member_entity:1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="meite_shop_api_member_dto" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-openfeign:2.0.0.M1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.0.0.M1" level="project" />
