@@ -9,6 +9,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/meite_shop_api_entity/pom.xml" />
+        <option value="$PROJECT_DIR$/meite_shop_porta/pom.xml" />
+        <option value="$PROJECT_DIR$/meite_shop_portal/pom.xml" />
+        <option value="$PROJECT_DIR$/meite_shop_portal_web/pom.xml" />
       </set>
     </option>
   </component>

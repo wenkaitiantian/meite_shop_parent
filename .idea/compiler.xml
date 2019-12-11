@@ -13,7 +13,7 @@
         <module name="meite_shop_basics_springcloud_eureka" />
         <module name="meite_shop_basics_springcloud_zuul" />
         <module name="meite_shop_common_core" />
-        <module name="meite_shop_porta" />
+        <module name="meite_shop_portal_web" />
         <module name="meite_shop_service_api_member" />
         <module name="meite_shop_service_api_weixin" />
         <module name="meite_shop_service_member" />
@@ -34,6 +34,8 @@
       <module name="meite_shop_common_core" target="1.8" />
       <module name="meite_shop_parent" target="1.8" />
       <module name="meite_shop_porta" target="1.8" />
+      <module name="meite_shop_portal" target="1.8" />
+      <module name="meite_shop_portal_web" target="1.8" />
       <module name="meite_shop_service_api" target="1.8" />
       <module name="meite_shop_service_api_member" target="1.8" />
       <module name="meite_shop_service_api_weixin" target="1.8" />

@@ -13,7 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/meite_shop_common/meite_shop_common.iml" filepath="$PROJECT_DIR$/meite_shop_common/meite_shop_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_common/meite_shop_common_core/meite_shop_common_core.iml" filepath="$PROJECT_DIR$/meite_shop_common/meite_shop_common_core/meite_shop_common_core.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_parent.iml" filepath="$PROJECT_DIR$/meite_shop_parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/meite_shop_porta/meite_shop_porta.iml" filepath="$PROJECT_DIR$/meite_shop_porta/meite_shop_porta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_portal/meite_shop_portal.iml" filepath="$PROJECT_DIR$/meite_shop_portal/meite_shop_portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_portal/meite_shop_portal_web/meite_shop_portal_web.iml" filepath="$PROJECT_DIR$/meite_shop_portal/meite_shop_portal_web/meite_shop_portal_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api.iml" filepath="$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_member/meite_shop_service_api_member.iml" filepath="$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_member/meite_shop_service_api_member.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_weixin/meite_shop_service_api_weixin.iml" filepath="$PROJECT_DIR$/meite_shop_service_api/meite_shop_service_api_weixin/meite_shop_service_api_weixin.iml" />

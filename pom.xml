@@ -13,8 +13,10 @@
         <module>meite_shop_service_api</module>
         <module>meite_shop_service_impl</module>
         <module>meite_shop_common</module>
-        <module>meite_shop_porta</module>
         <module>meite_shop_api_dto</module>
+        <module>meite_shop_portal</module>
+        <module>meite_shop_portal</module>
+        <module>meite_shop_portal</module>
     </modules>
 
     <parent>
