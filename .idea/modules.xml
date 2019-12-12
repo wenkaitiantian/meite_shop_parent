@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/meite_shop_basics/meite_shop_basics_springcloud_zuul/meite_shop_basics_springcloud_zuul.iml" filepath="$PROJECT_DIR$/meite_shop_basics/meite_shop_basics_springcloud_zuul/meite_shop_basics_springcloud_zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_common/meite_shop_common.iml" filepath="$PROJECT_DIR$/meite_shop_common/meite_shop_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_common/meite_shop_common_core/meite_shop_common_core.iml" filepath="$PROJECT_DIR$/meite_shop_common/meite_shop_common_core/meite_shop_common_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite_shop_common/meite_shop_common_web_core/meite_shop_common_web_core.iml" filepath="$PROJECT_DIR$/meite_shop_common/meite_shop_common_web_core/meite_shop_common_web_core.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_parent.iml" filepath="$PROJECT_DIR$/meite_shop_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_portal/meite_shop_portal.iml" filepath="$PROJECT_DIR$/meite_shop_portal/meite_shop_portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite_shop_portal/meite_shop_portal_web/meite_shop_portal_web.iml" filepath="$PROJECT_DIR$/meite_shop_portal/meite_shop_portal_web/meite_shop_portal_web.iml" />

@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>meite_shop_common_core</module>
+        <module>meite_shop_common_web_core</module>
     </modules>
 
 

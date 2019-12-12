@@ -30,10 +30,10 @@ class MemberRegisterServiceImpl  extends BaseApiService<JSONObject> implements M
     @Transactional
     public BaseResponse<JSONObject> register(@RequestBody UserInpDTO userInpDTO, String registCode) {
 //        1、参数验证
-        String userName=userInpDTO.getUserName();
-        if (StringUtils.isEmpty(userName)){
-            return setResultError("用户名称不能为空");
-        }
+//        String userName=userInpDTO.getUserName();
+//        if (StringUtils.isEmpty(userName)){
+//            return setResultError("用户名称不能为空");
+//        }
         String userMobile=userInpDTO.getMobile();
         if (StringUtils.isEmpty(userMobile)){
             return setResultError("用户手机号不能为空");
