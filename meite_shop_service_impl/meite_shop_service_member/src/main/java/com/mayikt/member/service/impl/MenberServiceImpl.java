@@ -46,20 +46,21 @@ public class MenberServiceImpl extends BaseApiService<UserOutDTO> implements Mem
         if (StringUtils.isEmpty(token)) {
             return setResultError("token不能为空!");
         }
-        // 2.使用token向redis中查询userId
-        String redisValue = generateToken.getToken(token);
-        if (StringUtils.isEmpty(redisValue)) {
-            return setResultError("token已经失效或者不正确");
+        // 2.使用token查询redis 中的userId
+        String redisUserId = generateToken.getToken(token);
+        if (StringUtils.isEmpty(redisUserId)) {
+            return setResultError("token已经失效或者token错误!");
         }
-        Long userId = TypeCastHelper.toLong(redisValue);
-        // 3.根据userId查询用户信息
+        // 3.使用userID查询 数据库用户信息
+        Long userId = TypeCastHelper.toLong(redisUserId);
         UserDo userDo = userMapper.findByUserId(userId);
         if (userDo == null) {
-            return setResultError("用户信息不存在!");
+            return setResultError("用户不存在!");
         }
         // 4.将Do转换为Dto
-        UserOutDTO doToDto = MiteBeanUtils.doToDto(userDo, UserOutDTO.class);
-        return setResultSuccess(doToDto);
+//        UserOutDTO doToDto = MiteBeanUtils.doToDto(userDo, UserOutDTO.class);
+//        return setResultSuccess(doToDto);
+        return setResultSuccess(MiteBeanUtils.doToDto(userDo, UserOutDTO.class));
     }
 
 }
